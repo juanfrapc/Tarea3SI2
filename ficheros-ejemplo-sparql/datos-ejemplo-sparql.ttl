@@ -1,0 +1,27 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix eg: <http://www.si2.com/si2/>
+
+eg:juan
+	foaf:name "Juan Perez" ;
+    foaf:mbox <mailto:jpe@mail.com> ;
+	foaf:knows eg:ana ;
+    foaf:depiction <http://web.com/2005/04/jpe.jpg> .
+
+eg:nicolas
+	foaf:name "Nicolas Ruiz" ;
+    foaf:mbox <mailto:a.ruilz@example.net> ;
+    foaf:depiction <http://example.net/photos/an-2005.jpg> .
+
+eg:lidia
+	foaf:name "Lidia Sosa" ;
+	foaf:knows eg:nicolas ;
+    foaf:mbox_sha1sum "3f01fa9929df769aff173f57dec2fe0c2290aeea" .
+
+eg:maria
+	foaf:name "Maria Casal" ;
+    foaf:depiction <http://mbe.nn/pics/me.jpeg> .
+	
+eg:ana
+	foaf:name "Ana Sanchez" ;
+	foaf:mbox <mailto:as@mail.com> .
+	

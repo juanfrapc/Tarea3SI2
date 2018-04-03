@@ -1,0 +1,8 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX eg: <http://www.si2.com/si2/>
+
+select ?nombre ?amigo
+where{
+	?x foaf:name ?nombre.
+	?x foaf:knows/foaf:name ?amigo.
+}

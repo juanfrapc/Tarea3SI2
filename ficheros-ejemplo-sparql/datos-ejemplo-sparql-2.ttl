@@ -1,0 +1,18 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix eg: <http://www.si2.com/si2/>
+
+eg:elena
+	foaf:name "Elena Martin" ;
+    foaf:mbox <mailto:elm@mail.com> ;
+	foaf:knows eg:ana .
+
+eg:marta
+	foaf:name "Marta Ruiz" ;
+	foaf:knows eg:nicolas ;
+    foaf:mbox <mailto:mruiz@example.net> .
+
+eg:anibal
+	foaf:name "Anibal Lopez" ;
+	foaf:knows eg:elena .
+
+	

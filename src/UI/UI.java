@@ -5,11 +5,14 @@
  */
 package UI;
 
-/**
- *
- * @author Entrar
- */
+import Model.Grafo;
+
+import javax.swing.*;
+import java.io.File;
+
 public class UI extends javax.swing.JFrame {
+
+    private Grafo grafo;
 
     /**
      * Creates new form UI
@@ -18,6 +21,8 @@ public class UI extends javax.swing.JFrame {
         initComponents();
         resultTextArea.setEditable(false);
         this.setLocationRelativeTo(null);
+        this.setExtendedState(this.getExtendedState() | JFrame.MAXIMIZED_BOTH);
+        this.grafo = new Grafo();
     }
 
     /**
@@ -160,17 +165,35 @@ public class UI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void saveButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveButtonActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_saveButtonActionPerformed
+    private void saveButtonActionPerformed(java.awt.event.ActionEvent evt) {
+        JFileChooser fileChooser = new JFileChooser(".");
+        String queryStr = queryTextArea.getText();
+        String endpoint = endpointTextField.getText();
 
-    private void loadModelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loadModelButtonActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_loadModelButtonActionPerformed
+        int save = fileChooser.showSaveDialog(this);
+        if (save == JFileChooser.APPROVE_OPTION){
+            String path = fileChooser.getSelectedFile().getAbsolutePath();
+            String result = endpoint.equals("") ? grafo.saveQueryResult(new File(path), queryStr) : Grafo.saveRemoteQueryResult(new File(path), endpoint, queryStr);
+            resultTextArea.setText(result);
+        }
+    }
 
-    private void runButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_runButtonActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_runButtonActionPerformed
+    private void loadModelButtonActionPerformed(java.awt.event.ActionEvent evt) {
+        JFileChooser fileChooser = new JFileChooser(".");
+        int open = fileChooser.showOpenDialog(this);
+        if (open == JFileChooser.APPROVE_OPTION){
+            String path = fileChooser.getSelectedFile().getAbsolutePath();
+            grafo = new Grafo(path);
+        }
+    }
+
+    private void runButtonActionPerformed(java.awt.event.ActionEvent evt) {
+        String queryStr = queryTextArea.getText();
+        String endpoint = endpointTextField.getText();
+
+        String queryResult = endpoint.equals("") ? grafo.getQueryResult(queryStr): Grafo.getRemoteQueryResult(endpoint,queryStr);
+        resultTextArea.setText(queryResult);
+    }
 
     /**
      * @param args the command line arguments

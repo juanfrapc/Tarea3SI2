@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="Concept"/>
+  </head>
+  <results>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.openlinksw.com/schemas/virtrdf#QuadMap</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapValue</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapATable</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFText</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.openlinksw.com/schemas/virtrdf#array-of-string</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.openlinksw.com/schemas/virtrdf#QuadStorage</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.w3.org/2002/07/owl#Thing</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.w3.org/2002/07/owl#Class</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.w3.org/2002/07/owl#Ontology</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.w3.org/2000/01/rdf-schema#Class</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.w3.org/2002/07/owl#OntologyProperty</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.w3.org/2002/07/owl#AnnotationProperty</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.w3.org/2002/07/owl#Restriction</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.w3.org/2002/07/owl#ObjectProperty</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.w3.org/2002/07/owl#DatatypeProperty</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.w3.org/2002/07/owl#TransitiveProperty</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://aemet.linkeddata.es/ontology/Observation</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://purl.oclc.org/NET/ssnx/ssn#FeatureOfInterest</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.w3.org/2003/01/geo/wgs84_pos#Point</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.w3.org/2006/time#TemporalUnit</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.w3.org/2006/time#Instant</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.w3.org/2006/time#DateTimeDescription</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.w3.org/2006/time#DayOfWeek</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.w3.org/2006/time#DurationDescription</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.w3.org/2006/time#Interval</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://geo.linkeddata.es/ontology/Organizaci%C3%B3n</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://aemet.linkeddata.es/ontology/WeatherStation</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="Concept">
+        <uri>http://www.w3.org/2002/07/owl#NamedIndividual</uri>
+      </binding>
+    </result>
+  </results>
+</sparql>
