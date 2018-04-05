@@ -8,3 +8,6 @@ where {
 	UNION
 	{?x foaf:mbox_sha1sum ?correo.}
 	}
+
+
+select distinct ?Concept where {[] a ?Concept}

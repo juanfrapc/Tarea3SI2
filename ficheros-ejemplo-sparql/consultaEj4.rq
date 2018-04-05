@@ -1,0 +1,25 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX bibo: <http://purl.org/ontology/bibo/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+select ?autor (COUNT (?autor) AS ?articulos)
+where{
+	?x dcterms:creator/rdfs:label ?autor.
+}
+GROUP BY ?autor
+ORDER BY DESC(?articulos) LIMIT 10
+
+---------------------------------
+| autor             | articulos |
+=================================
+| "Wang, Y."        | 16        |
+| "Utescher, T."    | 12        |
+| "Kellner, A.W.A." | 10        |
+| "Csiki, Z."       | 9         |
+| "Dean, W. E."     | 9         |
+| "Korn, D."        | 9         |
+| "Liu, J."         | 9         |
+| "Mosbrugger, V."  | 9         |
+| ""                | 8         |
+| "Grigorescu, D."  | 8         |
+---------------------------------

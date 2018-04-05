@@ -1,0 +1,16 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX bibo: <http://purl.org/ontology/bibo/>
+
+select distinct (COUNT(?nombre) AS ?numero)
+where{
+	?x dcterms:identifier ?nombre.
+	FILTER NOT EXISTS{?x bibo:issn ?issn}.
+}
+
+
+------------------
+----------
+| numero |
+==========
+| 3196   |
+----------
