@@ -1,0 +1,97 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?name ?rector
+WHERE {
+    ?school a dbo:University;
+	dbo:country dbr:Spain;
+	rdfs:label ?name.
+
+    OPTIONAL
+    {?school dbo:rector ?rector}.
+    FILTER(LANG(?name) = "es")
+}
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+#| name                                                                                   | rector                                                  |
+#====================================================================================================================================================
+#| "Universidad de Almería"@es                                                            |                                                         |
+#| "Universidad de León"@es                                                               |                                                         |
+#| "Universidad de Lérida"@es                                                             |                                                         |
+#| "Universidad Nacional de Educación a Distancia"@es                                     | <http://dbpedia.org/resource/Alejandro_Tiana_Ferrer>    |
+#| "Universidad Carlos III de Madrid"@es                                                  | <http://dbpedia.org/resource/Juan_Romo>                 |
+#| "Universidad Rey Juan Carlos"@es                                                       | <http://dbpedia.org/resource/Fernando_Suárez_Bilbao>    |
+#| "Universidad Europea de Madrid"@es                                                     |                                                         |
+#| "Universidad de Cantabria"@es                                                          |                                                         |
+#| "Universidad Pontificia Comillas"@es                                                   | <http://dbpedia.org/resource/Society_of_Jesus>          |
+#| "Universidad de Alcalá"@es                                                             | <http://dbpedia.org/resource/Dr._Fernando_Galván>       |
+#| "Universidad de Murcia"@es                                                             |                                                         |
+#| "Universidad Autónoma de Madrid"@es                                                    |                                                         |
+#| "Escuela Naval Militar (España)"@es                                                    |                                                         |
+#| "Universidad Miguel Hernández de Elche"@es                                             |                                                         |
+#| "Universidad de Navarra"@es                                                            |                                                         |
+#| "Universidad de Valladolid"@es                                                         |                                                         |
+#| "IE Business School"@es                                                                |                                                         |
+#| "Universidad Camilo José Cela"@es                                                      |                                                         |
+#| "ICADE"@es                                                                             |                                                         |
+#| "Real Conservatorio Superior de Música de Madrid"@es                                   |                                                         |
+#| "Universidad Politécnica de Valencia"@es                                               |                                                         |
+#| "Universidad Pontificia de Salamanca"@es                                               |                                                         |
+#| "Universidad Pablo de Olavide"@es                                                      |                                                         |
+#| "Universidad de Huelva"@es                                                             |                                                         |
+#| "Universidad de Jaén"@es                                                               |                                                         |
+#| "Universidad Francisco de Vitoria"@es                                                  |                                                         |
+#| "Basque Center for Applied Mathematics"@es                                             |                                                         |
+#| "Universidad Católica de Ávila"@es                                                     |                                                         |
+#| "Universidad de Extremadura"@es                                                        | <http://dbpedia.org/resource/Segundo_Píriz_Durán>       |
+#| "Escuela Técnica Superior de Ingenieros de Caminos, Canales y Puertos de Santander"@es |                                                         |
+#| "Universidad de Málaga"@es                                                             |                                                         |
+#| "Instituto Barcelona de Estudios Internacionales"@es                                   |                                                         |
+#| "Universidad de Gerona"@es                                                             | <http://dbpedia.org/resource/Sergi_Bonet>               |
+#| "Universidad Politécnica de Cataluña"@es                                               |                                                         |
+#| "Universidad de Barcelona"@es                                                          |                                                         |
+#| "Universidad Loyola Andalucía"@es                                                      |                                                         |
+#| "Universidad de Las Palmas de Gran Canaria"@es                                         |                                                         |
+#| "Universidad de Zaragoza"@es                                                           |                                                         |
+#| "Universidad de La Coruña"@es                                                          |                                                         |
+#| "Universidad de Vigo"@es                                                               |                                                         |
+#| "IE Universidad"@es                                                                    |                                                         |
+#| "Universidad de Burgos"@es                                                             |                                                         |
+#| "Universidad de Castilla-La Mancha"@es                                                 |                                                         |
+#| "Universidad CEU Cardenal Herrera"@es                                                  |                                                         |
+#| "Universidad Europea Miguel de Cervantes"@es                                           |                                                         |
+#| "Universidad de Santiago de Compostela"@es                                             |                                                         |
+#| "Universidad de Cádiz"@es                                                              | <http://dbpedia.org/resource/Eduardo_González_Mazo>     |
+#| "Universidad de Oviedo"@es                                                             | <http://dbpedia.org/resource/Vicente_Gotor_Santamaría>  |
+#| "ESADE"@es                                                                             |                                                         |
+#| "Universidad Pública de Navarra"@es                                                    |                                                         |
+#| "Universidad de Salamanca"@es                                                          |                                                         |
+#| "Universidad de Sevilla"@es                                                            |                                                         |
+#| "Universidad Ramon Llull"@es                                                           |                                                         |
+#| "Musikene"@es                                                                          |                                                         |
+#| "Universidad Europea del Atlántico"@es                                                 |                                                         |
+#| "Red de Excelencia Nacional de Investigación en Ciberseguridad"@es                     |                                                         |
+#| "Universidad de Palencia (histórica)"@es                                               |                                                         |
+#| "Universidad Católica San Antonio"@es                                                  |                                                         |
+#| "Universidad de Cervera"@es                                                            |                                                         |
+#| "Escuela Andaluza de Salud Pública"@es                                                 |                                                         |
+#| "Universidad CEU San Pablo"@es                                                         |                                                         |
+#| "Escuela Politécnica Superior de Linares"@es                                           |                                                         |
+#| "Universidad Católica de Valencia San Vicente Mártir"@es                               | <http://dbpedia.org/resource/José_Alfredo_Peris_Cancio> |
+#| "Escuela de Ingeniería Industrial de la Universidad de Vigo"@es                        |                                                         |
+#| "Facultad de Informática de Barcelona"@es                                              |                                                         |
+#| "Escuela de Alta Dirección y Administración"@es                                        |                                                         |
+#| "Facultad de Traducción e Interpretación de la Universidad de Granada"@es              |                                                         |
+#| "Universidad de Granada"@es                                                            | <http://dbpedia.org/resource/Pilar_Aranda_Ramírez>      |
+#| "Escuela Superior de Música Reina Sofía"@es                                            |                                                         |
+#| "Universidad de Alicante"@es                                                           |                                                         |
+#| "Universidad Internacional de Valencia"@es                                             |                                                         |
+#| "Universidad de La Laguna"@es                                                          |                                                         |
+#| "Universidad Internacional de Bircham"@es                                              |                                                         |
+#| "Escuela Técnica Superior de Ingeniería de Minas de Vigo"@es                           |                                                         |
+#| "Escuela Superior de Enseñanzas Técnicas"@es                                           |                                                         |
+#| "Universidad de Vich - Universidad Central de Cataluña"@es                             | <http://dbpedia.org/resource/Jordi_Montaña_i_Matosas>   |
+#| "Parque Científico de la Universidad de Valencia"@es                                   |                                                         |
+#| "Universidad de Santa Catalina"@es                                                     |                                                         |
+#----------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,435 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="name"/>
+    <variable name="rector"/>
+  </head>
+  <results>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Almería</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de León</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Lérida</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Nacional de Educación a Distancia</literal>
+      </binding>
+      <binding name="rector">
+        <uri>http://dbpedia.org/resource/Alejandro_Tiana_Ferrer</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Carlos III de Madrid</literal>
+      </binding>
+      <binding name="rector">
+        <uri>http://dbpedia.org/resource/Juan_Romo</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Rey Juan Carlos</literal>
+      </binding>
+      <binding name="rector">
+        <uri>http://dbpedia.org/resource/Fernando_Suárez_Bilbao</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Europea de Madrid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Cantabria</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Pontificia Comillas</literal>
+      </binding>
+      <binding name="rector">
+        <uri>http://dbpedia.org/resource/Society_of_Jesus</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Alcalá</literal>
+      </binding>
+      <binding name="rector">
+        <uri>http://dbpedia.org/resource/Dr._Fernando_Galván</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Murcia</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Autónoma de Madrid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Escuela Naval Militar (España)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Miguel Hernández de Elche</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Navarra</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Valladolid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">IE Business School</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Camilo José Cela</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">ICADE</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Real Conservatorio Superior de Música de Madrid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Politécnica de Valencia</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Pontificia de Salamanca</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Pablo de Olavide</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Huelva</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Jaén</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Francisco de Vitoria</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Basque Center for Applied Mathematics</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Católica de Ávila</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Extremadura</literal>
+      </binding>
+      <binding name="rector">
+        <uri>http://dbpedia.org/resource/Segundo_Píriz_Durán</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Escuela Técnica Superior de Ingenieros de Caminos, Canales y Puertos de Santander</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Málaga</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Instituto Barcelona de Estudios Internacionales</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Gerona</literal>
+      </binding>
+      <binding name="rector">
+        <uri>http://dbpedia.org/resource/Sergi_Bonet</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Politécnica de Cataluña</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Barcelona</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Loyola Andalucía</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Las Palmas de Gran Canaria</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Zaragoza</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de La Coruña</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Vigo</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">IE Universidad</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Burgos</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Castilla-La Mancha</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad CEU Cardenal Herrera</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Europea Miguel de Cervantes</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Santiago de Compostela</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Cádiz</literal>
+      </binding>
+      <binding name="rector">
+        <uri>http://dbpedia.org/resource/Eduardo_González_Mazo</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Oviedo</literal>
+      </binding>
+      <binding name="rector">
+        <uri>http://dbpedia.org/resource/Vicente_Gotor_Santamaría</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">ESADE</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Pública de Navarra</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Salamanca</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Sevilla</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Ramon Llull</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Musikene</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Europea del Atlántico</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Red de Excelencia Nacional de Investigación en Ciberseguridad</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Palencia (histórica)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Católica San Antonio</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Cervera</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Escuela Andaluza de Salud Pública</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad CEU San Pablo</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Escuela Politécnica Superior de Linares</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Católica de Valencia San Vicente Mártir</literal>
+      </binding>
+      <binding name="rector">
+        <uri>http://dbpedia.org/resource/José_Alfredo_Peris_Cancio</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Escuela de Ingeniería Industrial de la Universidad de Vigo</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Facultad de Informática de Barcelona</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Escuela de Alta Dirección y Administración</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Facultad de Traducción e Interpretación de la Universidad de Granada</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Granada</literal>
+      </binding>
+      <binding name="rector">
+        <uri>http://dbpedia.org/resource/Pilar_Aranda_Ramírez</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Escuela Superior de Música Reina Sofía</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Alicante</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Internacional de Valencia</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de La Laguna</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad Internacional de Bircham</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Escuela Técnica Superior de Ingeniería de Minas de Vigo</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Escuela Superior de Enseñanzas Técnicas</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Vich - Universidad Central de Cataluña</literal>
+      </binding>
+      <binding name="rector">
+        <uri>http://dbpedia.org/resource/Jordi_Montaña_i_Matosas</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Parque Científico de la Universidad de Valencia</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal xml:lang="es">Universidad de Santa Catalina</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>

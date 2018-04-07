@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="nombre"/>
+    <variable name="correo"/>
+  </head>
+  <results>
+    <result>
+      <binding name="nombre">
+        <literal>Ana Sanchez</literal>
+      </binding>
+      <binding name="correo">
+        <uri>mailto:as@mail.com</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="nombre">
+        <literal>Lidia Sosa</literal>
+      </binding>
+      <binding name="correo">
+        <literal>3f01fa9929df769aff173f57dec2fe0c2290aeea</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="nombre">
+        <literal>Nicolas Ruiz</literal>
+      </binding>
+      <binding name="correo">
+        <uri>mailto:a.ruilz@example.net</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="nombre">
+        <literal>Juan Perez</literal>
+      </binding>
+      <binding name="correo">
+        <uri>mailto:jpe@mail.com</uri>
+      </binding>
+    </result>
+  </results>
+</sparql>
